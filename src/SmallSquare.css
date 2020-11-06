@@ -1,0 +1,47 @@
+.FillSquare {
+    display: flex;
+    border-radius: 10px;
+    background: rgb(232, 138, 69);
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: Pacifico, cursive;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 75px;
+    width: 107px;
+    transition: transform 0.3s ease 0s;
+    animation-duration: 0.75s;
+    animation-name: rsrjK;
+    height: 107px;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.EmptySquare {
+    display: none;
+    border-radius: 10px;
+    background: rgb(106, 198, 184);
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: Pacifico, cursive;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 75px;
+    width: 107px;
+    transition: transform 0.3s ease 0s;
+    animation-duration: 0.75s;
+    animation-name: rsrjK;
+    height: 107px;
+    transform: translate3d(0px, 0px, 0px);
+}

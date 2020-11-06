@@ -1,0 +1,21 @@
+.Container {
+    margin: 5px 0px;
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    position: relative;
+    padding: 15px;
+    cursor: default;
+    touch-action: none;
+    background: rgb(87, 64, 124);
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+}
+
+.Container-Sub {
+    width: 106.25px;
+    height: 106.25px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: rgb(61, 41, 99);
+}
